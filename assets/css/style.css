@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+:root {
+    --arcivo: 'Archivo Black', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(-90deg, rgba(239,108,211,0.3), rgba(92,192,242,0.3));
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img {
+    width: 400px; height: 690px; border-radius: 25px; box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+.txt__gallery {
+    font-family: var(--arcivo);
+    font-size: 30px;
+}
+.boyAndGirl {
+    font-family: var(--arcivo);
+    font-size: 28px;
+}
+
+@media screen and (max-width: 401px) {
+    .gallery img {
+        width: 290px;
+        height: 520px;
+    }
+    
+    .txt__gallery {
+        font-size: 20px;
+    }
+    .boyAndGirl {
+        font-size: 20px;
+    }
+}

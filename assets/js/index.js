@@ -1,7 +1,3 @@
-
-
-
-
 //Api Data
 let data = '../../data/siswa/data.json';
 let tampilSiswa = document.querySelector('.row');
@@ -54,4 +50,4 @@ const sr = ScrollReveal({
 });
 sr.reveal('.img3', {rotate:{y: 500}})
 sr.reveal('.img2', {delay: 700, rotate:{y: -500}})
-sr.reveal('.img1', {delay: 1000, rotate:{x: 500}})
+sr.reveal('.img1', {delay: 700, rotate:{x: 500}})
